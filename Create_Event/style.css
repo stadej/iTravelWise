@@ -923,8 +923,8 @@
 .event-creation .img {
   position: absolute;
   width: 307px;
-  height: 46px;
-  top: 0;
+  height: 55px;
+  top: -10;
   left: 0;
 }
 
@@ -968,4 +968,12 @@
 .finalize-event-button{
   opacity: 0;
 
+}
+
+
+#location_symbol {
+  position: absolute;
+  top: 20px; /* Adjust the top position according to your preference */
+  left: 10px; 
+  height: 10px;
 }
