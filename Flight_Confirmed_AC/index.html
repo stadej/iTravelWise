@@ -9,6 +9,12 @@
     function redirectToLogin() {
         window.close();
       }
+    
+    function ProceedToPayment() {
+        window.location.href = '../Proceed_to_Payment/index.html';
+      }
+
+    
 
     </script>
   </head>
@@ -17,13 +23,13 @@
       <div class="overlap-group-wrapper">
         <div class="overlap-group">
           <div class="overlap">
-            <a href="#" onclick="redirectToLogin()">
+            <a href="#" onclick="ProceedToPayment()">
             <img class="rectangle" src="img/rectangle-303.svg" />
-            <div class="text-wrapper">Done</div>
+            <div class="text-wrapper">Pay</div>
           </a>
           </div>
 
-          <p class="thank-you-message">Thank you for booking your flight with Air Canada.Please make your payment within 2 business days to confirm your seats.</p>
+          <p class="thank-you-message">Thank you for booking your flight with Air Canada.Please make your payment confirm your seats.</p>
         </div>
       </div>
     </div>
