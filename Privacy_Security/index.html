@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+    function ToSettings() {
+      window.location.href = '../Settings/index.html';
+    }
+  </script>
+  <body>
+    <div class="privacy-and-safety">
+      <div class="div">
+        <img class="backdrop" src="img/rectangle-302.jpg">
+
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <div class="header">Privacy and Passwords</div>
+        <div class="overlap-group">
+          <div class="text-wrapper">Enter Current Password</div>
+          <div class="input-wrapper">
+            <input type="password"/>
+          </div>
+        </div>
+        <div class="overlap">
+          <div class="text-wrapper">Enter New Password</div>
+          <div class="input-wrapper">
+            <input type="password"/>
+          </div>
+        </div>
+        <div class="overlap-2">
+          <div class="text-wrapper">Re-Enter New Password</div>
+          <div class="input-wrapper">
+            <input type="password" />
+          </div>
+        </div>
+        <div class="overlap-4">
+          <div class="text-wrapper-4">Save Changes</div>
+        </div>
+        <a href="#" onclick="ToSettings()">
+          <div class="overlap-5">
+            <div class="text-wrapper-5">Cancel</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

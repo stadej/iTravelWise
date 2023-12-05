@@ -1,0 +1,199 @@
+.privacy-and-safety {
+  background-color: #fffbfb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.privacy-and-safety .div {
+  overflow: hidden;
+  width: 320px;
+  height: 568px;
+  position: absolute;
+}
+
+.privacy-and-safety .header {
+  position: absolute;
+  width: 187px;
+  top: 60px;
+  left: 20px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top: 0;
+  left: 0;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.privacy-and-safety .overlap-group {
+  position: absolute;
+  width: 320px;
+  height: 568px;
+  top: 180px;
+  left: 40px;
+}
+
+.privacy-and-safety .overlap {
+  position: absolute;
+  width: 290px;
+  height: 74px;
+  top: 240px;
+  left: 40px;
+}
+
+.privacy-and-safety .overlap-2 {
+  position: absolute;
+  width: 333px;
+  height: 74px;
+  top: 300px;
+  left: 40px;
+}
+
+.privacy-and-safety .text-wrapper {
+  position: absolute;
+  width: 264px;
+  top: 0px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffffd4;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.privacy-and-safety .overlap-4 {
+  position: absolute;
+  background-color: rgb(111, 250, 111);
+  width: 200px;
+  height: 50px;
+  top: 390px;
+  left: 60px;
+}
+
+.privacy-and-safety .overlap-5 {
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  top: 475px;
+  left: 60px;
+}
+
+.privacy-and-safety .text-wrapper-4 {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.privacy-and-safety .text-wrapper-5 {
+  position: absolute;
+  width: 187px;
+  top: 5px;
+  left: 45px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.privacy-and-safety .input-wrapper{
+  position: absolute;
+  width: 79px;
+  height: 25px;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+  font-family: "Acme", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: 0;
+  padding: 0;
+}
+
+.backdrop {
+  width: 100%; /* Make the image take the full width of the container */
+  height: 100%; /* Make the image take the full height of the container */
+  object-fit: cover; /* Ensure the image covers the entire space */
+  /* Additional styles as needed */
+}
