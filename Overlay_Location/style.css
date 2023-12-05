@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 .location-overlay {
   background-color: #f6feff;
   display: flex;
@@ -17,7 +20,7 @@
 .location-overlay .overlap-group {
   position: relative;
   height: 244px;
-  background-image: url(./img/rectangle-313.png);
+  background-image: url(./img/rectangle-302.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
