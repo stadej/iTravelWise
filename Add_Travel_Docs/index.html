@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+    function ToSettings(){
+      window.location.href = '../Settings/index.html';
+    }
+    function refresh(){
+      location.reload();
+    }
+  </script>
+  </form>
+  <body>
+    <div class="add-travel-documents">
+      <div class="div">
+        <img class="backdrop" src="img/rectangle-302.jpg">
+        <div class="header">Add Travel Documents</div>
+        <div class="overlap-group">
+          <div class="text-wrapper">Passport</div>
+          <div class="file-wrapper">
+            <input type="file" id="passport" name="passport" accept="image/png, application/pdf" />
+          </div>
+        </div>
+        <div class="overlap-2">
+          <div class="text-wrapper">Vaccine Documents</div>
+          <div class="file-wrapper">
+            <input type="file" id="vaccine" name="vaccine" accept="image/png, application/pdf" />
+          </div>
+        </div>
+        <div class="overlap-3">
+          <div class="text-wrapper">Tickets</div>
+          <div class="file-wrapper">
+            <input type="file" id="tickets" name="tickets" accept="image/png, application/pdf" />
+          </div>
+        </div>
+        <a href="#" onclick="refresh()"></a>
+          <div class="overlap-4">
+            <div class="text-wrapper-4">Add</div>
+          </div>
+        </a>
+        <a href="#" onclick="ToSettings()">
+          <div class="overlap-5">
+            <div class="text-wrapper-5">Cancel</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

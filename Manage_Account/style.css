@@ -1,0 +1,144 @@
+.manage-account {
+  background-color: #fffbfb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.manage-account .div {
+  background-color: #fffbfb;
+  overflow: hidden;
+  width: 320px;
+  height: 568px;
+  position: relative;
+}
+
+.manage-account .overlap-group {
+  position: absolute;
+  width: 330px;
+  height: 568px;
+  top: 200px;
+  left: 0;
+}
+
+.manage-account .header {
+  position: absolute;
+  width: 187px;
+  top: 100px;
+  left: 45px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.manage-account .text-wrapper {
+  position: absolute;
+  width: 264px;
+  top: 0;
+  right: 10px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffffd4;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.manage-account .overlap {
+  position: absolute;
+  width: 290px;
+  height: 74px;
+  top: 240px;
+  left: 0px;
+}
+
+.manage-account .overlap-2 {
+  position: absolute;
+  width: 333px;
+  height: 74px;
+  top: 280px;
+  left: 0px;
+}
+
+
+.manage-account .overlap-3 {
+  position: absolute;
+  width: 325px;
+  height: 63px;
+  top: 320px;
+  left: 0px;
+}
+
+.manage-account .overlap-4 {
+  position: absolute;
+  background-color: rgb(111, 250, 111);
+  width: 200px;
+  height: 50px;
+  top: 390px;
+  left: 60px;
+}
+
+.manage-account .overlap-5 {
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  top: 475px;
+  left: 60px;
+}
+
+.manage-account .text-wrapper-4 {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.manage-account .text-wrapper-5 {
+  position: absolute;
+  width: 187px;
+  top: 5px;
+  left: 45px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.manage-account .input-wrapper{
+  position: absolute;
+  width: 79px;
+  height: 25px;
+  top: 0;
+  left: 120px;
+  background-color: transparent;
+  font-family: "Acme", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: 0;
+  padding: 0;
+}
+
+.backdrop {
+  width: 100%; /* Make the image take the full width of the container */
+  height: 100%; /* Make the image take the full height of the container */
+  object-fit: cover; /* Ensure the image covers the entire space */
+  /* Additional styles as needed */
+}

@@ -15,7 +15,7 @@
 .event-creation .overlap {
   position: relative;
   height: 568px;
-  background-image: url(./img/rectangle-302.jpg);
+  background-image: url(./img/rectangle-317.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -853,11 +853,9 @@
 .event-creation .text-wrapper-9 {
   top: 6px;
   left: 32px;
-  width: 135px;
-  height: 31px;
   font-weight: 100;
   font-style: italic;
-  font-size: 25px;
+  font-size: 15px;
   position: absolute;
   font-family: "Inter", Helvetica;
   color: #000000;
@@ -963,17 +961,3 @@
   mix-blend-mode: hard-light;
   object-fit: cover;
 }
-
-.finalize-event-button{
-  opacity: 0;
-
-}
-
-
-.location_symbol {
-  position: absolute;
-  top: 30px; /* Adjust the top position according to your preference */
-  left: 10px; 
-  height: 10px;
-}
-

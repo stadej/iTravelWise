@@ -1,0 +1,125 @@
+.add-travel-documents {
+  background-color: #fffbfb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-travel-documents .div {
+  background-color: #fffbfb;
+  overflow: hidden;
+  width: 320px;
+  height: 568px;
+  position: relative;
+}
+
+.add-travel-documents .header {
+  position: absolute;
+  width: 187px;
+  top: 60px;
+  left: 27px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.add-travel-documents .overlap-group {
+  position: absolute;
+  width: 320px;
+  height: 568px;
+  top: 140px;
+  left: 25px;
+}
+
+.add-travel-documents .overlap-2 {
+  position: absolute;
+  width: 320px;
+  height: 568px;
+  top: 220px;
+  left: 25px;
+}
+
+.add-travel-documents .overlap-3 {
+  position: absolute;
+  width: 320px;
+  height: 568px;
+  top: 300px;
+  left: 25px;
+}
+
+.add-travel-documents .text-wrapper {
+  position: absolute;
+  width: 264px;
+  top: 0px;
+  left: 0px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffffd4;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.add-travel-documents .file-wrapper {
+  position: absolute;
+  width: 264px;
+  top: 30px;
+  left: 0px;
+  background-color: #ffffffd4;
+}
+
+.add-travel-documents .overlap-4 {
+  position: absolute;
+  background-color: rgb(111, 250, 111);
+  width: 200px;
+  height: 50px;
+  top: 410px;
+  left: 60px;
+}
+
+.add-travel-documents .overlap-5 {
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  top: 495px;
+  left: 60px;
+}
+
+.add-travel-documents .text-wrapper-4 {
+  position: absolute;
+  top: 8px;
+  left: 70px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.add-travel-documents .text-wrapper-5 {
+  position: absolute;
+  width: 187px;
+  top: 5px;
+  left: 45px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.backdrop {
+  width: 100%; /* Make the image take the full width of the container */
+  height: 100%; /* Make the image take the full height of the container */
+  object-fit: cover; /* Ensure the image covers the entire space */
+  /* Additional styles as needed */
+}

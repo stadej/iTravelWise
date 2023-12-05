@@ -1,6 +1,3 @@
-body {
-  overflow: hidden;
-}
 .app-overlay {
   background-color: #ffffff;
   display: flex;
@@ -23,10 +20,9 @@ body {
   height: 310px;
   top: 12px;
   left: 11px;
-  background-image: url(./img/rectangle-302.jpg);
+  background-image: url(./img/rectangle-324.png);
   background-size: cover;
   background-position: 50% 50%;
-  object-fit: cover; /* This property ensures the image covers the entire container */
 }
 
 .app-overlay .events {

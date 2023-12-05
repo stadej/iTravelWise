@@ -15,14 +15,14 @@
 .flights-booking .overlap {
   position: relative;
   height: 568px;
-  background-image: url(./img/rectangle-302.jpg);
+  background-image: url(./img/rectangle-311.png);
   background-size: cover;
   background-position: 50% 50%;
 }
 
 .flights-booking .boxes {
   display: flex;
-  width: 220px;
+  width: 154px;
   height: 27px;
   align-items: center;
   gap: 10px;
@@ -61,18 +61,17 @@
 
 .flights-booking .div {
   display: flex;
-  width: 210px;
-  height: 27px;
+  width: 141px;
+  height: 24px;
   align-items: center;
   gap: 10px;
   padding: 6px 10px;
+  top: 115px;
+  left: 165px;
+  border: 1px solid;
   position: absolute;
-  top: 145px;
-  left: 5px;
   background-color: #ffffff;
   border-radius: 5px;
-  border: 2px solid;
-  border-color: #fdfafa;
 }
 
 .flights-booking .img {
@@ -107,14 +106,14 @@
 
 .flights-booking .boxes-2 {
   display: flex;
-  width: 70px;
-  height: 22px;
+  width: 44px;
+  height: 24px;
   align-items: center;
   justify-content: center;
   gap: 10px;
   padding: 6px 10px;
   top: 1px;
-  left: 230px;
+  left: 2px;
   border: 1px solid;
   position: absolute;
   background-color: #ffffff;
@@ -340,7 +339,6 @@
 }
 
 .flights-booking .text-wrapper-4 {
- 
   position: absolute;
   top: 9px;
   left: 28px;
@@ -351,10 +349,6 @@
   letter-spacing: -0.41px;
   line-height: 22px;
   white-space: nowrap;
-}
-
-#locationText {
-  display: none;
 }
 
 .flights-booking .text-wrapper-5 {
@@ -527,8 +521,8 @@
 .flights-booking .rectangle-8 {
   position: absolute;
   width: 308px;
-  height: 55px;
-  top: -5px;
+  height: 41px;
+  top: 0;
   left: 8px;
 }
 
@@ -593,32 +587,3 @@
   line-height: 22px;
   white-space: nowrap;
 }
-
-
-#back_to_portal{
-  width: 60px; /* Make the button take the full width of the container */
-  height: 55px; /* Make the button take the full height of the container */
-  
-  position: absolute;
-  
-  left: 0px; /* Set the left position of the button */
-  top: 513px; /* Set the top position of the button */
-
-}
-
-.positioned-div {
-  display: flex;
-  width: 220px;
-  height: 27px;
-  align-items: center;
-  gap: 10px;
-  padding: 6px 10px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  border: 2px solid;
-  border-color: #fdfafa;
-}
-
