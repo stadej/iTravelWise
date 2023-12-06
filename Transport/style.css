@@ -1,3 +1,28 @@
+.rectangle,
+
+
+
+.rectangle-7,
+.rectangle-8,
+.rectangle-9,
+.rectangle-10,
+.rectangle-11,
+.rectangle-12,
+.rectangle-13,
+.rectangle-14,
+.rectangle-15,
+.rectangle-16,
+.rectangle-17,
+.rectangle-18,
+.rectangle-19,
+.rectangle-20,
+.rectangle-21,
+.rectangle-22
+ {
+  display: none;
+}
+
+
 .transportation {
   background-color: #0d1507;
   display: flex;
