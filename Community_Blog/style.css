@@ -1,16 +1,16 @@
 .community-blog {
-  
-  transform: translateX(150%);
-  width: 320px;
-  height: 568px;
   background-color: #000000;
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
 .community-blog .overlap-group {
   position: relative;
   width: 324px;
   height: 568px;
+  background-image: url(img/rectangle-302.jpg);
 }
 
 .community-blog .rectangle {
