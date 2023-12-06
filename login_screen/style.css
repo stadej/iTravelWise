@@ -80,7 +80,7 @@
   position: absolute;
   width: 170px;
   top: 517px;
-  left: 55%; /* Center horizontally */
+  left: 53%; /* Center horizontally */
   transform: translateX(-55%); /* Adjust to center properly */
   font-family: "Acme", Helvetica;
   font-weight: 400;
@@ -109,7 +109,7 @@
   position: absolute;
   width: 128px;
   top: 517px;
-  left: 40%; /* Center horizontally */
+  left: 44%; /* Center horizontally */
   transform: translateX(-40%); /* Adjust to center properly */
   font-family: "Acme", Helvetica;
   font-weight: 400;
