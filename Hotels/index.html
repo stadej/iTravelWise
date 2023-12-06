@@ -7,44 +7,6 @@
 
     <script>
       function searchHotels(){
-
-                // Get the check-in and check-out date values
-          var checkInDate = document.getElementById('arrive-date').value;
-          var checkOutDate = document.getElementById('choose-date').value;
-
-          // Get today's date
-          var today = new Date();
-          today.setHours(0, 0, 0, 0); // Set hours, minutes, seconds, and milliseconds to zero for comparison
-
-          // Convert the input dates to Date objects
-          var checkInDateObj = new Date(checkInDate);
-          var checkOutDateObj = new Date(checkOutDate);
-
-          // Check if check-in date is today or in the future
-          if (checkInDateObj < today) {
-            alert('Check-in date must be today or in the future.');
-            return;
-          }
-
-          // Check if check-out date is today or in the future
-          if (checkOutDateObj < today) {
-            alert('Check-out date must be today or in the future.');
-            return;
-          }
-
-          // Check if check-in date is before check-out date
-          if (checkInDateObj >= checkOutDateObj) {
-            alert('Check-in date must be before Check-out date.');
-            return;
-          }
-
-                  // Check if the user has typed something in the search bar
-          var searchInput = document.querySelector('.search-input').value.trim();
-          if (searchInput === '') {
-            alert('Please enter a Hotel or Location in the search bar.');
-            return;
-          }
-
         document.getElementById('hotel').style.display = 'block';
         document.getElementById('hotel-2').style.display = 'block';
         document.getElementById('hotel_image').style.display = 'block';
@@ -186,7 +148,7 @@
               <div class="text-wrapper-25">$79 / night</div>
               <img class="image-2" src="img/image-2-1.png" />
               <div class="text-wrapper-26">(75) reviews</div>
-              <div class="more-info">more info &gt;</div>
+             
             </div>
             
             <div class="overlap-3">
@@ -200,7 +162,7 @@
               <div class="text-wrapper-25">$59 / night</div>
               <img class="image-2" src="img/image-2-1.png" />
               <div class="text-wrapper-26">(84) reviews</div>
-              <div class="more-info">more info &gt;</div>
+              
             </div>
             <div class="overlap-3">
               <div class="rectangle-10"></div>
