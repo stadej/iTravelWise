@@ -66,22 +66,18 @@
 }
 
 .log-in-screen .div {
-  position: absolute;
-  width: 165px;
-  height: 38px;
-  top: 510px;
-  left: 55%; /* Center horizontally */
-  transform: translateX(-50%); /* Adjust to center properly */
-  background-color: #ffffff38;
-  mix-blend-mode: lighten;
+  background-color: #fffbfb;
+  overflow: hidden;
+  width: 320px;
+  height: 568px;
+  position: relative;
 }
 
 .log-in-screen .text-wrapper-2 {
   position: absolute;
   width: 170px;
   top: 517px;
-  left: 53%; /* Center horizontally */
-  transform: translateX(-55%); /* Adjust to center properly */
+  left: 130px;
   font-family: "Acme", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -109,8 +105,7 @@
   position: absolute;
   width: 128px;
   top: 517px;
-  left: 44%; /* Center horizontally */
-  transform: translateX(-40%); /* Adjust to center properly */
+  left: 10px;
   font-family: "Acme", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -277,6 +272,13 @@
   width: 20px; /* Make the image take the full width of the container */
   height: 20px; /* Make the image take the full height of the container */
 
+  /* Additional styles as needed */
+}
+
+.backdrop {
+  width: 100%; /* Make the image take the full width of the container */
+  height: 100%; /* Make the image take the full height of the container */
+  object-fit: cover; /* Ensure the image covers the entire space */
   /* Additional styles as needed */
 }
 
