@@ -1,5 +1,5 @@
 .create-accouint {
-  background-color: #000000;
+  background-color: #ffefef;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -22,12 +22,12 @@
 
 .create-accouint .overlap {
   position: absolute;
-  width: 342px;
+  width: 350px;
   height: 51px;
   top: 517px;
-  left: 0;
+  left: 0px;
   background-image: url(./img/rectangle-223.svg);
-  background-size: 100% 100%;
+  
 }
 
 .create-accouint .rectangle {
@@ -55,6 +55,7 @@
   top: 150px;
   left: 82px;
 }
+
 
 .text-wrapper-2 {
   position: absolute;
