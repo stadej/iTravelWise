@@ -5,8 +5,22 @@
     <link rel="stylesheet" href="style.css" />
     <script>
       function redirectToLogin() {
+        var emailInput = document.getElementById('email').value;
+        if (!isValidEmail(emailInput)) {
+          alert('Please enter a valid email address.');
+          return false;
+        }
+        // Add additional logic if needed
         window.close();
       }
+
+      function isValidEmail(email) {
+        // Regular expression for validating an Email address
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+      }
+      
+      
     </script>
 
   </head>
