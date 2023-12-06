@@ -7,7 +7,7 @@
 
     function redirectToForgot() {
      
-      window.open('../Forgot_Password/index.html', 'SecondPage', 'width=500,height=230,top=200,left=350');
+      window.open('../Forgot_Password/index.html', 'SecondPage', 'width=300,height=230,top=200,left=450');
     
     }
 
@@ -20,8 +20,8 @@
     }
 
     function validate(){
-      if(   document.getElementById("text1").value == "john@gmail.com"
-        && document.getElementById("text2").value == "john1234" )
+      if(   document.getElementById("text1").value == "john"
+        && document.getElementById("text2").value == "j1234" )
       {
         redirectToPortal();
       }
@@ -43,10 +43,10 @@
     <img class="img" src="img/rectangle-1.png" />
     <img class="rectangle-2" src="img/rectangle-2.svg" />
     <div class="input-wrapper">
-      <input class="username"  id="email" type="email"  placeholder="email" />
+      <input class="username" type="text" id="text1" placeholder="Username" />
     </div>
     <div class="input-wrapper">
-      <input class="password" id="password" type="password"  placeholder="Password" />
+      <input class="password" type="password" id="text2" placeholder="Password" />
     </div>
     <div class="text-wrapper"> <button id="loginButton" class="log_in_button" onclick="validate()">Log in</button></div>
     <div class="div"></div>
